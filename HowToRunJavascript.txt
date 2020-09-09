@@ -1,0 +1,5 @@
+To run Javascript Program:
+
+    Open integrated terminal on visual studio code (View > Integrated Terminal)
+    type 'node filename.js'
+    press enter
