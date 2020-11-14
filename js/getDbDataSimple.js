@@ -12,7 +12,7 @@ function getDbDataSimple(AwaitProveData,TableName,Database) {
     const currentWorkingDirectory=process.cwd()
 
 
-    const { preGetDbDataSimple } = require(path.join(currentWorkingDirectory, "./preGetDbDataSimple"));
+    const { preGetDbDataSimple } = require(path.join(currentWorkingDirectory, "./js/preGetDbDataSimple"));
 
 
 
@@ -48,38 +48,38 @@ exports.getDbDataSimple = getDbDataSimple;
 
 
 
-async function getinfo(){
-let AwaitProveData="ok"
+// async function getinfo(){
+// let AwaitProveData="ok"
 
-let TableName=''
+// let TableName=''
 
-let Database=''
-
-
-let tableGotten=await getDbDataSimple(AwaitProveData,TableName,Database)
-
-console.log(tableGotten)
-
-console.log("tableGotten['KEY_file15'] above")
-
-// let ThingTOget= tableGotten.datafillName
-
-let ThingTOget= tableGotten.asdfads
-
-if (ThingTOget==undefined){
-
-    console.log("variable is undefined")
-}else{
-
-    console.log("value Exists")
-
-    console.log(ThingTOget)
-
-    console.log('value gotten above')
-
-}
+// let Database=''
 
 
-}
+// let tableGotten=await getDbDataSimple(AwaitProveData,TableName,Database)
 
-getinfo()
+// console.log(tableGotten)
+
+// console.log("tableGotten['KEY_file15'] above")
+
+// // let ThingTOget= tableGotten.datafillName
+
+// let ThingTOget= tableGotten.asdfads
+
+// if (ThingTOget==undefined){
+
+//     console.log("variable is undefined")
+// }else{
+
+//     console.log("value Exists")
+
+//     console.log(ThingTOget)
+
+//     console.log('value gotten above')
+
+// }
+
+
+// }
+
+// getinfo()
