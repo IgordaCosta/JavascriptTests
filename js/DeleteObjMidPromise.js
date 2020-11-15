@@ -86,17 +86,23 @@ function DeleteObjMidPromise(DoneGet,ObjectToDelete){
             
                 console.log('value gotten above deleted')
 
-                console.log(DoneGet)
+                
 
 
             }
 
             
-    }.then(function(value){
+    }
+
+    
+
+    ).then(function(value){
 
         console.log(value)
 
-        resolve(DoneGet)
+        console.log(DoneGet)
+
+        console.log("Done DoneGet above")
 
 
 
@@ -107,10 +113,6 @@ function DeleteObjMidPromise(DoneGet,ObjectToDelete){
     }
 
     
-    )
-
-    
-
     )
 
 }
