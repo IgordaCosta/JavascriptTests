@@ -1,6 +1,6 @@
 
 // this function is not working as it should, it is not  going in the right order,
-// which causes the object to not be deleted
+// which causes the object to not be deleted use the python version instead
 
 async function DeleteObjFromTable(ObjectToDelete){
 
