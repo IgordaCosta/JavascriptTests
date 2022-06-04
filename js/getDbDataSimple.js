@@ -3,7 +3,7 @@ function getDbDataSimple(AwaitProveData,TableName,Database) {
 
     return new Promise((resolve, _reject) => {
     
-    console.log(AwaitProveData)
+    // console.log(AwaitProveData)
 
     var process = require("process");
 
@@ -49,6 +49,13 @@ exports.getDbDataSimple = getDbDataSimple;
 
 
 // async function getinfo(){
+
+
+
+
+// const { getDbDataSimple } = require(path.join(currentWorkingDirectory, "./js/getDbDataSimple"));
+
+
 // let AwaitProveData="ok"
 
 // let TableName=''
@@ -60,26 +67,26 @@ exports.getDbDataSimple = getDbDataSimple;
 
 // console.log(tableGotten)
 
-// console.log("tableGotten['KEY_file15'] above")
+// // console.log("tableGotten['KEY_file15'] above")
 
-// // let ThingTOget= tableGotten.datafillName
+// // // let ThingTOget= tableGotten.datafillName
 
-// let ThingTOget= tableGotten.asdfads
+// // let ThingTOget= tableGotten.asdfads
 
-// if (ThingTOget==undefined){
+// // if (ThingTOget==undefined){
 
-//     console.log("variable is undefined")
-// }else{
+// //     console.log("variable is undefined")
+// // }else{
 
-//     console.log("value Exists")
+// //     console.log("value Exists")
 
-//     console.log(ThingTOget)
+// //     console.log(ThingTOget)
 
-//     console.log('value gotten above')
-
-// }
-
+// //     console.log('value gotten above')
 
 // }
+
+
+// // }
 
 // getinfo()

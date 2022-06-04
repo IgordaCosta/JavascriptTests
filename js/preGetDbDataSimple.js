@@ -1,7 +1,7 @@
 
 async function preGetDbDataSimple(AwaitProveData,TableName,Database) {
     
-    console.log(AwaitProveData)
+    // console.log(AwaitProveData)
 
     var process = require("process");
 
@@ -23,7 +23,7 @@ async function preGetDbDataSimple(AwaitProveData,TableName,Database) {
 
     let DoneGet= await getDbData(resultDatabase,TableName,Database,currentWorkingDirectory,MyDocumentsDbPath)
 
-    console.log(DoneGet)
+    // console.log(DoneGet)
 
 
     return DoneGet
